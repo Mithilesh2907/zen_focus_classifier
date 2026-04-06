@@ -1,0 +1,94 @@
+# =========================
+# Python cache / compiled
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Data files (IMPORTANT)
+# =========================
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.h5
+*.hdf5
+*.parquet
+*.feather
+
+# =========================
+# Model files
+# =========================
+models/
+*.pkl
+*.joblib
+*.sav
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# Logs and outputs
+# =========================
+logs/
+*.log
+outputs/
+results/
+
+# =========================
+# System files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# Pip / Conda
+# =========================
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# =========================
+# TensorBoard
+# =========================
+runs/
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+
+# =========================
+# Cache directories
+# =========================
+.cache/
